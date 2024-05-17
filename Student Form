@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <form>
+        <h1>Student Registration Form</h1> 
+        <lable for="firstname">Firstname : </lable>
+        <input type="text" id="firstname" name="firstname" placeholder="eg:Pavan"/>
+        <lable for="firstname">Middlename : </lable>
+        <input type="text" id="middlename" name="middlename" placeholder="eg:Kumar"/>
+        <lable for="firstname">Lastname : </lable>
+        <input type="text" id="lasttname" name="lastname" placeholder="eg:Tadivaka"/><br>
+        <lable for="Email">Email : </lable><br>
+        <input type="text" id="email" name="email" placeholder="eg:pavan@gmail.com"/><br><br>
+        <label>Course : </label><br>
+          <select>
+            <option value="Course">Course</option>
+            <option value="B.sc">B.sc</option>
+            <option value="B.com">B.com</option>
+            <option value="MBA">MBA</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="MCA">MCA</option>
+            <option value="M.Tech">M.Tech</option>
+          </select><br>
+        <lable>Gender : </lable><br>
+          <input type="radio" name="male"/>Male<br>
+          <input type="radio" name="Female"/>Female<br>
+          <input type="radio" name="other"/>other<br><br>
+        <lable>Phone : <lable>
+          <input type="text" name="numner" size="10"/><br>
+          <lable>Address : </lable>
+          <textarea cols="80" rows="5" value="address"></textarea>
+          <input type="button" value="Submit"/>  
+      </form>
+  </body>
+</html>
