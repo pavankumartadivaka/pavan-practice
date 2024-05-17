@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>iframe</title>
+  </head>
+  <body>
+      <h1>Iframe</h1>
+      <iframe src="https://en.wikipedia.org/wiki/HTML" frameborder="2" width="250" height="200" border-color="red"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.0408480104247!2d78.36067867377187!3d17.457758900776827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb938d99f563cd%3A0x1d711d3f9ea94260!2sAMB%20Cinemas!5e0!3m2!1sen!2sin!4v1715946568901!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </body>
+</html>
