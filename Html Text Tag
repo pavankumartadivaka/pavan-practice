@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Text tag</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 style="color:red">heading </h1>
+      <h2 style="color:blue">heading</h2>
+      <h3 style="color:orange">heading</h3>
+      <h4 style="color:green">heading</h4>
+      <h5 style="color:yellow">heading</h5>
+      <h6 style="color:pink">heading</h6>
+      <p style="color:brown">paragraph</p>
+      <p><abbr>Abbreviation</abbr></p>
+      <p><em>Emphasize</em></p>
+      <p><dfn>Definition</dfn></p>
+      <p><ins>Insertion</ins></p>
+      <p><mark>Mark</mark></p>
+      <p><u>Underline</u></p>
+      <p><strike>Strike</strike></p>
+      <p><del>Deleted Text</del></p>
+  </body>
+</html>
