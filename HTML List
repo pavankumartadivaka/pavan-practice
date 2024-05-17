@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>List</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      ul{
+        list-style-type: square;
+      }
+    </style>
+  </head>
+  <body>
+      <h1>Top Ecommerce Websites</h1>
+      <ol type="A">
+        <li>Amazon</li>
+        <li>Flipkart</li>
+        <li>Meesho</li>
+        <li>IndiaMart</li>
+        <li>Ebay</li>
+      </ol>
+      <h1> Best Sports</h1>
+      <ul>
+        <li>Cricket</li>
+        <li>Field Hockey</li>
+        <li>Football</li>
+        <li>Kabaddi</li>
+        <li>Badminton</li>
+      </ul>
+      <dl> 
+      <dt>Cricket </dt>
+      <dd>Cricket is the most popular sport in India and the most played game in India. Cricket's popularity in India is unrivalled compared to the amount of attention it generates in any other country. </dd>
+      <dt>Kabaddi </dt>
+      <dd>While several sports in India, such as badminton and hockey, would have taken third place a few years ago, kabaddi has reclaimed its place as the most popular sport in the country. </dd>
+      </dl>
+  </body>
+</html>
