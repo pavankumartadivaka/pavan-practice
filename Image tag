@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Text tag</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <img src="https://th.bing.com/th/id/R.c2dac5d6ce25dbce678145d15959689f?rik=W9KcqwJyl54p7Q&riu=http%3a%2f%2f1.bp.blogspot.com%2f-I4lfeHiOPPo%2fT0cKkXEoXrI%2fAAAAAAAAEkU%2fViKNVO6AmbA%2fs1600%2fcute_tweety_cartoon_characters.png&ehk=8c1uyCLSF0gqc%2f6i9uoNu6Wihn84%2bdAseQ1ZsuCQzVc%3d&risl=&pid=ImgRaw&r=0"alt="duck"width="200",height="200">
+    <a href="https://www.bing.com/images/search?view=detailV2&ccid=wtrF1s4l&id=8699E5094490B87F18B6ED299E977202AB9CD25B&thid=OIP.wtrF1s4l285ngUXRWVlonwHaIv&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.c2dac5d6ce25dbce678145d15959689f%3frik%3dW9KcqwJyl54p7Q%26riu%3dhttp%253a%252f%252f1.bp.blogspot.com%252f-I4lfeHiOPPo%252fT0cKkXEoXrI%252fAAAAAAAAEkU%252fViKNVO6AmbA%252fs1600%252fcute_tweety_cartoon_characters.png%26ehk%3d8c1uyCLSF0gqc%252f6i9uoNu6Wihn84%252bdAseQ1ZsuCQzVc%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1600&expw=1355&q=cartoon+images&simid=608044044185574270&FORM=IRPRST&ck=634DDF535BE163525F3242FE2655A7E3&selectedIndex=0&itb=1" target="_blank"> React </a>
+  </body>
+</html>
