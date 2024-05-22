@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title> HTML Layout </title>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+
+box-sizing: border-box;
+
+}
+
+body{
+
+font-family: "Lora", serif;
+
+}
+
+header{
+
+background-color: yellow;
+
+padding: 35px;
+
+text-align: center;
+
+font-size: 30px;
+
+}
+
+nav{
+
+float: left;
+
+width: 30%;
+
+height: 400px;
+
+background-color: lightblue;
+
+padding: 20px;
+
+}
+
+nav ul{
+
+list-style-type: none;
+
+padding: 0;
+
+}
+
+article{
+
+float: left;
+
+padding: 20px;
+
+width: 70%;
+
+background-color: lightgreen;
+
+height: 400px;
+
+}
+
+section::after{
+
+content: " ";
+
+display: table;
+
+clear: both;
+
+}
+
+footer{
+
+background-color: lightpink;
+
+padding: 10px;
+
+text-align: center;
+
+}
+
+@media(max-width: 600px){
+
+nav, article{
+
+width: 100%;
+
+height: auto;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1> HTML Layout </h1>
+
+<h2> Header part </h2>
+
+<p> HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes, and other items. HTML elements are delineated by tags, written using angle brackets. 
+<header>
+
+<h2> HTML page </h2>
+
+</header>
+
+<section>
+
+<nav>
+
+<ul>
+
+<li><a href="#"> Home </a></li>
+
+<li><a href="#"> About </a></li>
+
+<li><a href="#"> Support </a></li>
+
+</ul>
+
+</nav>
+
+<article>
+
+<h1> HTML Basic </h1>
+
+<p>HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. The inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.[2] A form of HTML, known as HTML5, is used to display video and audio, primarily using the element, together with JavaScript.</p>
+
+<p> HyperText Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+
+</article>
+
+</section>
+
+<footer>
+
+<p>HTMLReact page </p>
+
+</footer>
+
+</body>
+
+</html>
