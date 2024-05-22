@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Div</title>
+  </head>
+  <body>
+      <div style="background-color:pink;padding:20px;margin:30px">
+  <h2 style="color:blue">London</h2>
+  <p style="color:green">London is the capital city of England.</p>
+  <p style="color:green">London has over 13 million inhabitants.</p>
+</div>
+  </body>
+</html>
