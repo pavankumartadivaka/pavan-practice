@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Input types</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+<input type="button" id="button" name="button"><br>
+<input type="checkbox" id="checkbox" name="checkbox"><br>
+<input type="color" id="color" name="color"><br>
+<input type="date"id="date" name="date"><br>
+<input type="datetime-local" id="datetime-local" name="datetim"><br>
+<input type="email" id="email" name="email"><br>
+<input type="file" id="file" name="file"><br>
+<input type="image" id="image" name="image"><br>
+<input type="month" id="month" name="month"><br>
+<input type="number" id="number" name="number"><br>
+<input type="password" id="password" name="password"><br>
+<input type="radio" id="radio" name="radio"><br>
+<input type="range" id="range" name="range"><br>
+<input type="reset" id="reset" name="reset"><br>
+<input type="search" id="search" name="search"><br>
+<input type="submit" id="submit" name="submit"><br>
+<input type="text" id="text" name="text"><br>
+<input type="time" id="time" name="time"><br>
+<input type="url" id="url" name="ur."><br>
+<input type="week" id="week" name="week">
+  </body>
+</html>
