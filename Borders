@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Borders</title>
+  </head>
+  <body>
+      <h1>Borders</h1>
+      <p style="border:dotted;border-width:2px">dotted border</p>
+      <p style="border:dashed;border-color:red">dashed border</p>
+      <p style="border:solid 3px green">solid border</p>
+      <p style="border:double;border-radius:4px">double border</p>
+      <p style="border:groove">groove border</p>
+      <p style="border:ridge">ridge border</p>
+      <p style="border:inset">inset border</p>
+      <p style="border:outset">outset border</p>
+      <p style="border:hidden">hidden border</p>
+      <p style="border:none">none border</p>
+  </body>
+</html>
