@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title> padding </title>
+</head>
+<style>
+  div{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border: 2px solid black;
+    margin: 60px;
+    padding: 80px;
+    outline: 5px dashed green;
+    outline-offset: 40px;
+  }
+</style>
+</head>
+<body>
+<div>
+padding
+<br>
+borders 
+<br> 
+margins
+</div>
+</body>
+</html>
