@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Position</title>
+    <style>
+      div.static{
+        position: static;
+        border: 3px solid red;
+        left: 50px;
+        right: 100px;
+        top: 200px;
+        }
+      .relative{
+        position: relative;
+        left: 50px;
+        border: 3px solid black;
+        }
+      .fixed{
+       position: fixed;
+       bottom: 10px;
+       right: 10px;
+       width: 100px;
+       border: 3px solid green;
+       }
+       .absolute{
+       position: absolute;
+       border: 3px solid orange;
+       top: 50px;
+       right: 50px;
+       }
+       .sticky{
+       position: sticky;
+       border: 3px dashed blue;
+       position: -webkit-sticky;
+       top: 20px;
+       }
+    </style>
+  </head>
+  <body>
+      <h1>Position </h1>
+      <div class="static">
+        it is not affected by the position it is by default
+      </div>
+      <div class="relative">
+        it is moved according to bottom, right, left, top
+      </div>
+      <div class="fixed">
+        it is fixed
+      </div>
+      <div class="absolute">
+        it is placed to the nearest position
+      </div>
+      <div class="sticky">
+        it is stick to the top
+      </div>
+      <p> React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library[4][5] for building user interfaces based on components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies</p>
+      <p>React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library[4][5] for building user interfaces based on components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies</p>
+  </body>
+</html>
