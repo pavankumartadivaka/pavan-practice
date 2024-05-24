@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title> CSS Links </title>
+<style>
+a{
+  color: white;
+  text-decoration: none;
+  background-color: orange;
+  padding: 20px;
+  margin: 20px;
+}
+a:hover{
+  background-color: lightseagreen;
+}
+</style>
+</head>
+<body>
+<h1> CSS Links </h1>
+<a href="https://fonts.google.com/selection/embed">Google fonts</a>
+</code>
+</body>
+</html>
