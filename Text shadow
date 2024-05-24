@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title> Text shadow </title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+body{
+font-family: "Pinyon Script",, cursive;
+}
+h1{
+text-shadow: 0px 0px 4px red, 0 0 6px blue, 1px 2px 8px yellow;
+}
+h2{
+font-family: "Pinyon Script", cursive;
+font-size: 60px;
+font-weight: 800;
+font-style:oblique;
+font-variant: small-caps;
+}
+</style>
+</head>
+<body>
+<h1> Text-shadow </h1>
+<h2> coding font </h2>
+<code>
+public class Pavan{ <br>
+public static void main(String[]args){
+<br>
+System.out.println("Web development");
+<br>
+}
+}
+</code>
+</body>
+</html>
