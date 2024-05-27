@@ -1,0 +1,11 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title> Block-level Elements</title> 
+</head> 
+<body> 
+	<h1 class="heading">The seven wonders of the world</h1>
+<p class="paragraph">The Taj Mahal is one of the seven wonders of the world</p>
+</body> 
+
+</html> 
