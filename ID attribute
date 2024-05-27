@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>ID attribute</title>
+<style>
+    #special-text {
+       color: blue;
+       font-weight: bold;
+    }
+ </style>
+</head>
+<body>
+ <p>This is <span id="special-text">special</span> text. </p>
+ <p>Regular text.</p>
+</body>
+</html>
