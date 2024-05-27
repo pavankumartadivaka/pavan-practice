@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>web page</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        header{
+            height: 45px;
+        }
+        section h1{
+            text-align: center;
+            color: blue;
+        }
+        header nav ul{
+            display: flex;
+            margin-left: 65%;
+            list-style-type: none;
+        }
+        header nav ul li{
+            padding-left: 10%;
+        }
+        header a{
+            text-decoration: none;
+            color: aqua;
+        }
+        section{
+            height: 80vh;
+            border: 2px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+            height: 300px;
+            border-radius: 40%;
+        }
+        footer{
+line-height: 40px;
+
+display: flex;
+
+justify-content: center;
+
+font-size: 1rem;
+
+}
+    </style>
+</head>
+<body>
+    <h1>Pet care Center</h1>
+    <header>
+        <nav>
+            <ul>
+          <li><a href="#Intro">Home</a></li> 
+          <li><a href="About">About</a></li> 
+          <li><a href="Contact">Contact</a></li> 
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section id="Intro">
+            <div class="Container">
+            <img src="https://www.bing.com/th/id/OIP.aNNp-HQ9Lkjz5iC8OSFkDQAAAA?w=135&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"/>
+            <h1>Pet Care Center</h1>
+        </div>
+        </section>
+        <section id="About">
+            <div class="container">
+            <h2>About Us</h2>
+            <p> At Vetcare Pet hospital our goal is to build lasting relationships with our patients so that we can come to know their special and individual needs, and they can come to know us and trust us in our care and handling.</p>
+            <ul>
+                <li>Pet food</li>
+                <li>Emergency srevice</li>
+                <li>Pup care advice</li>
+            </ul>
+        </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>contact me</h2>
+                <p> Vist us at : Hitex city Hyderbad</p>
+                <ul>
+                    <li>Email : petcare@gmail.com</li>
+                    <li>Pet__care</li>
+                    <li>Follow us at: </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Copyright 2022 pet care center</p>
+    </footer>
+</body>
+</html>
