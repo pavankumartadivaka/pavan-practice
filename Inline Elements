@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title> Inline Elements </title>
+</head>
+<body>
+    <img
+  src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace2-img.png"
+  class="image"
+/>
+<img
+  src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi1-img.png"
+  class="image"
+/>
+<p class="paragraph">
+  The <a class="link-text" href="https://en.wikipedia.org/wiki/Taj_Mahal">Taj Mahal</a>
+  is one of the seven wonders of the world.
+</p>
+</body>
+</html>
