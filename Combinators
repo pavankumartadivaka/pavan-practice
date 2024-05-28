@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Combinators</title>
+    <style>
+    div~p{
+        background-color: orange;
+    }
+    </style>
+</head>
+<body>
+    <h1>Combinators</h1>
+    <h2>Descendant selectors</h2>
+    <p>normal paragraph</p>
+    <p>normal paragraphM</p>
+    <div>
+        <p>paragraph1</p>
+        <p>paragraph2</p>
+        <p>paragraph3</p>
+        <section>paragraph</section>
+        <p>paragraph4</p>
+    </div>
+    <p>normal paragraph</p>
+    <p>normal paragraph</p>
+    <div>
+        <p>paragraph1</p>
+        <p>paragraph2</p>
+        <p>paragraph3</p>
+        <section>paragraph</section>
+        <p>paragraph4</p>
+    </div>
+    <p>normal paragraph</p>
+    <p>normal paragraph</p>
+    <div>
+        <p>paragraph1</p>
+        <p>paragraph2</p>
+        <p>paragraph3</p>
+        <section>paragraph</section>
+        <p>paragraph4</p>
+    </div>
+    <p>normal paragraph</p>
+    <p>normal paragraph</p>
+    <div>
+        <p>paragraph1</p>
+        <p>paragraph2</p>
+        <p>paragraph3</p>
+        <section>paragraph</section>
+        <p>paragraph4</p>
+    </div>
+</body>
+</html>
