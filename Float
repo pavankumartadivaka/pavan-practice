@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Float</title>
+    <style>
+        img{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Float</h1>
+    <p><img src="https://th.bing.com/th?id=OIP.e7fs49K4kAtIbebJl08-XgHaGd&w=267&h=233&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="bee" width="250px" height="300px"/>f consecutive statements have identical part at the beginning, then ABAP allows you to chain these statements into a single statement. First write the identical part once and then place a colon (:). Then write the remaining parts of the individual statements separated by commas.Normal Statements</p>
+</body>
+</html>
