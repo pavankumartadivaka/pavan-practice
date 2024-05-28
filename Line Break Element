@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Line Break Element</title>
+</head>
+<body>
+    <p>The HTML "br" element helps to break the text and continue it in the next line.<br/>The HTML "br" element helps to break the text and continue it in the next line.<br/>
+        The HTML "br" element helps to break the text and continue it in the next line.<br/>The HTML "br" element helps to break the text and continue it in the next line.<br/>The HTML "br" element helps to break the text and continue it in the next line.<br/>The HTML "br" element helps to break the text and continue it in the next line.<br/>
+        The HTML "br" element helps to break the text and continue it in the next line.<br/>The HTML "br" element helps to break the text and continue it in the next line.<br/>The HTML "br" element helps to break the text and continue it in the next line.<br/>
+        The HTML "br" element helps to break the text and continue it in the next line.<br/>The HTML "br" element helps to break the text and continue it in the next line.<br/>The HTML "br" element helps to break the text and continue it in the next line.<br/>The HTML "br" element helps to break the text and continue it in the next line.<br/>
+    </p>
+</body>
+</html>
