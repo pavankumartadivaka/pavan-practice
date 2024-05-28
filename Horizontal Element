@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Horizontal Element</title>
+</head>
+<body>
+    <p>The HTML "hr" element inserts a horizontal line and helps to separate the content.<hr>The HTML "hr" element inserts a horizontal line and helps to separate the content.<hr>The HTML "hr" element inserts a horizontal line and helps to separate the content.<hr>
+        The HTML "hr" element inserts a horizontal line and helps to separate the content.<hr>The HTML "hr" element inserts a horizontal line and helps to separate the content.<hr>The HTML "hr" element inserts a horizontal line and helps to separate the content.<hr>
+        The HTML "hr" element inserts a horizontal line and helps to separate the content.<hr>The HTML "hr" element inserts a horizontal line and helps to separate the content.<hr>The HTML "hr" element inserts a horizontal line and helps to separate the content.<hr>
+        The HTML "hr" element inserts a horizontal line and helps to separate the content.<hr>The HTML "hr" element inserts a horizontal line and helps to separate the content.<hr>The HTML "hr" element inserts a horizontal line and helps to separate the content.<hr>
+        The HTML "hr" element inserts a horizontal line and helps to separate the content.<hr>The HTML "hr" element inserts a horizontal line and helps to separate the content.<hr>The HTML "hr" element inserts a horizontal line and helps to separate the content.<hr>
+
+    </p>
+</body>
+</html>
