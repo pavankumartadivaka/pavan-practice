@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Clear</title>
+    <style>
+       .one{
+        float: left;
+        border: 5px solid red;
+        padding: 10px;
+       }
+       .two{
+        border: 5px solid brown;
+        padding: 10px;
+       }
+       .three{
+        float: left;
+        border: 5px solid orange;
+        padding: 10px;
+       }
+       .four{
+        border: 5px solid yellow;
+        padding: 10px;
+        clear: left;
+       }
+    </style>
+</head>
+<body>
+   <h1>Without Clear</h1>
+   <div class="one"> Without Clear</div>
+   <div class="two">If consecutive statements have identical part at the beginning, then ABAP allows you to chain these statements into a single statement. First write the identical part once and then place a colon (:). Then write the remaining parts of the individual statements separated by commas.Normal Statements:</div>
+   <h1>With Clear</h1>
+   <div class="three"> With Clear</div>
+   <div class="four">If consecutive statements have identical part at the beginning, then ABAP allows you to chain these statements into a single statement. First write the identical part once and then place a colon (:). Then write the remaining parts of the individual statements separated by commas.Normal Statements:</div>
+</html>
