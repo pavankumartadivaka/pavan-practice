@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style>
+        p:first-child{
+            color:red
+        }
+        p i:first-child{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1> first-child </h1>
+    <p> this is<i> One</i> paragraph for styling the pseudo-classes</p>
+    <p> this is paragraph for<i> styling</i> the pseudo-classes</p>
+<div>
+<p> this is paragraph for styling <i> the</i> pseudo-classes</p>
+<p> this is paragraph for styling the<i> pseudo-classes</i></p>
+</div>
+<p> this is<i> paragraph</i> for styling the pseudo-classes</p>
+
+</body>
+</html>
