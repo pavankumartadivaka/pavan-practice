@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>first-line</title>
+    <style>
+        p:first-line{
+            color:orange;
+            font-variant: small-caps;
+        }
+    </style>
+</head>
+<body>
+    <h1> first-child </h1>
+    <p> this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes</p>
+    <p> this is paragraph for<i> styling</i> the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes</p>
+<div>
+<p> this is paragraph for styling <i> the</i> pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes</p>
+<p> this is paragraph for styling the<i> pseudo-classes</i> this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes</p>
+</div>
+<p> this is<i> paragraph</i> for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes</p>
+
+</body>
+</html>
