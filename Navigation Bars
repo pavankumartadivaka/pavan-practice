@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Navigation Bars</title>
+    <style>
+       ul{
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+       }
+       li{
+        display: inline;
+       }
+       li a{
+        color: black;
+        background-color: aliceblue;
+        padding: 10px 20px;
+        text-decoration: none;
+       }
+       li a.active{
+        background-color: lightseagreen;
+        color: white;
+       }
+       li a:hover:not(.active){
+        background-color: lightsalmon;
+        color: white;
+       }
+    </style>
+</head>
+<body>
+    <h1>Navigation Bars</h1>
+    <ul>
+        <li> <a class="active" href="#home"> Home </a></li>
+        <li> <a href="#about"> About </a></li>
+        <li> <a href="#Contact"> Contact </a></li>
+</body>
+</html>
