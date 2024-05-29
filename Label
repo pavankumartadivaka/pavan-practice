@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Label</title>
+</head>
+<body>
+    <form>
+        <p class="Heading">what is your favourite language?</p>
+        <input type="radio" id="html"value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css"value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript"value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+        <input type="submit" value="Submit">
+      </form>
+      
+</body>
+</html>
