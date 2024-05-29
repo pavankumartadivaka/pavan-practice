@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Dropdowns</title>
+    <style>
+        .btn{
+            background-color: red;
+            color: white;
+            padding: 16px;
+            border: none;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .container{
+            position: relative;
+            display: inline-block;
+        }
+        .content{
+            position: absolute;
+            list-style-type: none;
+            background-color: blanchedalmond;
+            min-width: 150px;
+            padding: 10px;
+            z-index: 1;   
+            
+        }
+        .content a{
+            color: red;
+            text-decoration: none;
+            padding: 20px 20px;
+            display: block;
+        }
+        .content a:hover{
+            background-color: chartreuse;
+        }
+        .container:hover .content{
+            display: block;
+        }
+        .container:hover .btn{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dropdowns</h1>
+    <div class="container">
+        <button class="btn">Categories</button>
+        <div class="content">
+            <li><a href="#">Horrer</a></li>
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Drama</a></li>
+            <li><a href="#">Crime</a></li>
+            <li><a href="#">Thriller</a></li>
+            <li><a href="#">Documentary</a></li>
+            <li><a href="#">Adventure</a></li>
+            <li><a href="#">Sciencefiction</a></li>
+        </div>
+    </div>
+</body>
+</html>
