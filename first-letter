@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>first-letter</title>
+    <style>
+        p:first-letter{
+            color:orange;
+            font-variant: small-caps;
+            font-size: 30px;
+            background-color: yellow;
+            border: 2px solid blue;
+            padding: 10px;
+            margin: 10px;
+            text-decoration: underline;
+            float: left;
+            text-transform: uppercase;
+        }
+        ::selection{
+            color: pink;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1> first-letter </h1>
+    <p> this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes</p>
+    <p> this is paragraph for<i> styling</i> the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes</p>
+<div>
+<p> this is paragraph for styling <i> the</i> pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes</p>
+<p> this is paragraph for styling the<i> pseudo-classes</i> this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes</p>
+</div>
+<p> this is<i> paragraph</i> for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes this is<i> one</i> paragraph for styling the pseudo-classes</p>
+
+</body>
+</html>
