@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Radial gradient</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+        }
+        #radial{
+            background:radial-gradient( pink, skyblue, yellow, green,orange);
+        }
+        #radial-repeating{
+            background: repeating-radial-gradient(yellow , green ,orange ,pink ,skyblue );
+        }
+        #radial-repeating-percentage{
+            background: repeating-radial-gradient(pink 20%,skyblue 20%,yellow 30%);
+        }
+    </style>
+</head>
+<body>
+     <h1> Radial gradient </h1>
+     <div id="radial">
+        Radial
+     </div></br>
+     <div id="radial-repeating">
+        Radial
+     </div></br>
+     <div id="radial-repeating-percentage">
+        Radial
+     </div>
+</body>
+</html>
