@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Linear gradien</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+        #linear{
+            background:linear-gradient(to bottom left, pink, skyblue, yellow, green,orange);
+        }
+        #linear-repeating{
+            background: repeating-linear-gradient(to bottom right,yellow , green ,orange ,pink ,skyblue );
+        }
+        #linear-repeating-percentage{
+            background: repeating-linear-gradient(to bottom right,pink 20%,skyblue 20%,yellow 30%);
+        }
+    </style>
+</head>
+<body>
+     <h1> Linear gradient </h1>
+     <div id="linear">
+        Linear
+     </div></br>
+     <div id="linear-repeating">
+        Linear
+     </div></br>
+     <div id="linear-repeating-percentage">
+        Linear
+     </div>
+</body>
+</html>
