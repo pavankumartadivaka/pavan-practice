@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Conic gradient</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+        #conic{
+             background-image: conic-gradient(pink, skyblue , green, yellow);
+        }
+        #conic-degree{
+            background-image: conic-gradient(pink 90deg, skyblue 210deg, green 60deg);
+        }
+        #conic-radius{
+            background-image: conic-gradient(pink, skyblue , green, yellow);
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conic gradien</h1>
+    <div id="conic">
+        Conic
+    </div><br/>
+    <div id="conic-degree">
+        Conic
+    </div><br/>
+    <div id="conic-radius">
+        Conic
+    </div>  
+</body>
+</html>
