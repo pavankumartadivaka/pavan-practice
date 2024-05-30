@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Text Effects</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            text-overflow: clip;
+            text-overflow: hidden;
+            word-wrap: break-word;
+            writing-mode: horizontal-tb;
+            word-break: keep-all;
+        }
+        p{
+            white-space: nowrap;
+            width: 200px;
+            border: 2px solid yellow;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+    <div >
+        <p>React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js. Because React is only concerned with the user interface and rendering components to the DOM, React applications often rely on libraries for routing and other client-side functionality.[9][10] A key advantage of React is that it only rerenders those parts of the page that have changed, avoiding unnecessary rerendering of unchanged DOM elements.</p>
+    </div>
+</body>
+</html>
