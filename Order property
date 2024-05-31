@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Order property</title>
+    <style>
+        .center{
+            display: flex;
+            background-color: blue;
+        }
+        .center>div{
+            background-color: white;
+            color: black;
+            padding: 30px;
+            margin: 20px;
+            font-size: 20px;
+            width: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Order Property</h1>
+    <div class="center">
+    <div style="order: 3;">Pavan</div>
+    <div style="order: 4;">Kumar</div>
+    <div style="order: 2;">Sai</div>
+    <div style="order: 5;">krishna</div>
+    <div style="order: 1;">ram</div>
+    </div>
+</body>
+</html>
