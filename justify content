@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>justify content</title>
+    <style>
+        .center{
+            display: flex;
+            background-color: orange;
+            justify-content: center;
+            color: black;
+        }
+        .center>div{
+            background-color: white;
+            padding: 30px;
+            margin: 20px;
+            font-size: 20px;
+            width: 50px;
+        }
+        .flex-start{
+            display: flex;
+            background-color: orange;
+            justify-content: flex-start;
+            color: black;
+        }
+        .flex-start>div{
+            background-color: white;
+            padding: 30px;
+            margin: 20px;
+            font-size: 20px;
+            width: 50px;
+        }
+        .flex-end{
+            display: flex;
+            background-color: orange;
+            justify-content: flex-end;
+            color: black;
+        }
+        .flex-end>div{
+            background-color: white;
+            padding: 30px;
+            margin: 20px;
+            font-size: 20px;
+            width: 50px;
+        }
+        .space-around{
+            display: flex;
+            background-color: orange;
+            justify-content: space-around;
+            color: black;
+        }
+        .space-around>div{
+            background-color: white;
+            padding: 30px;
+            margin: 20px;
+            font-size: 20px;
+            width: 50px;
+        }
+        .space-between{
+            display: flex;
+            background-color: orange;
+            justify-content: space-between;
+            color: black;
+        }
+        .space-between>div{
+            background-color: white;
+            padding: 30px;
+            margin: 20px;
+            font-size: 20px;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>justify content</h1>
+    <div class="center">
+    <div>Pavan</div>
+    <div>Kumar</div>
+    <div>Sai</div>
+    <div>krishna</div>
+    </div></br>
+    <div class="flex-start">
+        <div>Pavan</div>
+        <div>Kumar</div>
+        <div>Sai</div>
+        <div>krishna</div>
+    </div></br>
+    <div class="flex-end">
+        <div>Pavan</div>
+        <div>Kumar</div>
+        <div>Sai</div>
+        <div>krishna</div>
+    </div></br>
+    <div class="space-around">
+        <div>Pavan</div>
+        <div>Kumar</div>
+        <div>Sai</div>
+        <div>krishna</div>
+    </div></br>
+    <div class="space-between">
+        <div>Pavan</div>
+        <div>Kumar</div>
+        <div>Sai</div>
+        <div>krishna</div>
+    </div>
+</body>
+</html>
