@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Flex-box</title>
+    <style>
+        .container{
+            display: flex;
+            background-color: skyblue;
+        }
+        .container div{
+            background-color: orange;
+            padding: 30px;
+            margin: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex-box</h1>
+    <div class="container">
+    <div>Pavan</div>
+    <div>Kumar</div>
+    <div>Sai</div>
+    <div>krishna</div>
+    </div>
+</body>
+</html>
