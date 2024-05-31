@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Flex-flow</title>
+    <style>
+        .flow{
+            display: flex;
+            flex-flow: row wrap;
+            flex-direction: row;
+            background-color: orange;
+            color: black;
+        }
+        .flow>div{
+            background-color: white;
+            padding: 30px;
+            margin: 20px;
+            font-size: 20px;
+            width: 100px;
+        }
+        .nowrap{
+            display: flex;
+            flex-flow:nowrap;
+            flex-direction: column;
+            background-color: orange;
+            color: black;
+        }
+        .nowrap>div{
+            background-color: white;
+            padding: 30px;
+            margin: 20px;
+            font-size: 20px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex-flow</h1>
+    <div class="flow">
+    <div>Pavan</div>
+    <div>Kumar</div>
+    <div>Sai</div>
+    <div>krishna</div>
+    <div>Hari</div>
+    <div>Naga</div>
+    <div>Venkat</div>
+    </div></br>
+    <div class="nowrap">
+        <div>Pavan</div>
+        <div>Kumar</div>
+        <div>Sai</div>
+        <div>krishna</div>
+        <div>Hari</div>
+        <div>Naga</div>
+        <div>Venkat</div>
+    </div>
+</body>
+</html>
