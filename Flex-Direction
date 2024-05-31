@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Flex-Direction</title>
+    <style>
+        .row{
+            display: flex;
+            flex-direction: row;
+            background-color: orange;
+            color: black;
+        }
+        .row>div{
+            background-color: white;
+            padding: 30px;
+            margin: 20px;
+            font-size: 20px;
+            width: 100px;
+        }
+        .column{
+            display: flex;
+            flex-direction: column;
+            background-color: orange;
+            color: black;
+        }
+        .column>div{
+            background-color: white;
+            padding: 30px;
+            margin: 20px;
+            font-size: 20px;
+            width: 100px;
+        }
+        .row-reverse{
+            display: flex;
+            flex-direction: row-reverse;
+            background-color: orange;
+            color: black;
+        }
+        .row-reverse>div{
+            background-color: white;
+            padding: 30px;
+            margin: 20px;
+            font-size: 20px;
+            width: 100px;
+        }
+        .column-reverse{
+            display: flex;
+            flex-direction: column-reverse;
+            background-color: orange;
+            color: black;
+        }
+        .column-reverse>div{
+            background-color: white;
+            padding: 30px;
+            margin: 20px;
+            font-size: 20px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex-Direction</h1>
+    <div class="row">
+    <div>Pavan</div>
+    <div>Kumar</div>
+    <div>Sai</div>
+    <div>krishna</div>
+    </div></br>
+    <div class="column">
+        <div>Pavan</div>
+        <div>Kumar</div>
+        <div>Sai</div>
+        <div>krishna</div>
+    </div></br>
+    <div class="row-reverse">
+        <div>Pavan</div>
+        <div>Kumar</div>
+        <div>Sai</div>
+        <div>krishna</div>
+    </div></br>
+    <div class="column-reverse">
+        <div>Pavan</div>
+        <div>Kumar</div>
+        <div>Sai</div>
+        <div>krishna</div>
+    </div>
+</body>
+</html>
