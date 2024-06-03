@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Flex-shrink</title>
+    <style>
+        .flex-shrink{
+            display: flex;
+            background-color: blue;
+            margin: 10px;
+            padding: 20px;
+            
+        }
+        .flex-shrink>div{
+            background-color: white;
+            color: black;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            font-size: 20px;
+            width: 70px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex-shrink</h1>
+    <div class="flex-shrink">
+        <div style="flex-basis: 200px;">pavan</div>
+        <div>Kumar</div>
+        <div style="flex-basis: 100px;">sai</div>
+        <div>krishna</div>
+</body>
+</html>
