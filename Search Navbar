@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Search Navbar</title>
+    <style>
+        .topnav{
+            background-color: gray;
+            color: yellow;
+            padding: 20px;
+            margin: 30px;
+            overflow: hidden;
+        }
+        .topnav a{
+            text-decoration: none;
+            float: left;
+            text-align: center;
+        }
+        .color{
+            color:green;
+            font-size: 50px;
+        }
+        .topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <input type="text" placeholder="Search..">
+    </div>
+</body>
+</html>
