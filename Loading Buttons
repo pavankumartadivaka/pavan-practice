@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Loading Buttons</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .buttonload{
+            background-color: rgb(157, 251, 157);
+            font-size: 16px;
+            padding: 12px 16px;
+            border: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <button class="buttonload">
+        <i class="fa fa-spinner fa-spin"></i>Loading
+      </button>
+      
+      <button class="buttonload">
+        <i class="fa fa-circle-o-notch fa-spin"></i>Loading
+      </button>
+      
+      <button class="buttonload">
+        <i class="fa fa-refresh fa-spin"></i>Loading
+      </button>
+</body>
+</html>
