@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Simple HTML and CSS Website</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        nav{
+            position: fixed;
+            background-color: dimgray;
+            width: 100%;
+            padding: 10px 0;
+            z-index: 10;
+        }
+        nav .main{
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+            max-width: 1250px;
+            padding: 0 20px;
+            margin: auto;
+        }
+        .main .logo a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 35px;
+            font-weight: 600;
+        }
+        ul{
+            display: inline-flex;
+        }
+        ul li{
+            list-style: none;
+            margin: 7px;
+        }
+        ul li a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 8px 15px;
+            border-radius: 5px;
+            translate: all 0.4s,ease;
+        }
+        ul li a:hover{
+            background-color: #fff;
+            color: black;
+        }
+        .img{
+            background: url("https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat;
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            position:relative
+        }
+        .center{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+        .center .title{
+            font-size: 50px;
+            font-weight: 600;
+            color: #fff;
+        }
+        .center .sub-title{
+            font-size: 45px;
+            font-weight: 600;
+            color: #fff;
+        }
+        .center .btn{
+            margin-top: 10px;
+        }
+        .center .btn button{
+            height: 55px;
+             width: 170px;
+            border-radius: 5px;
+            border: none;
+            margin: 0 10px;
+            border: 2px solid white;
+            font-size: 20px;
+            font-weight: 500;
+            padding: 0 10px;
+            cursor: pointer;
+            outline: none;
+            transition: all 1s ease;
+        }
+        .learn{
+            color: #fff;
+            background: none;
+        }
+        .learn:hover{
+        background: white;
+        color: black;
+        }
+        .center .btn button.subscribe{
+        background: white;
+        color: black;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="main">
+            <div class="logo">
+                <a href="#">CodingLab</a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="img"></div>
+    <div class="center">
+        <div class="title">Create Amazing Website</div>
+        <div class="sub-title">Pure HTML & CSS Only</div>
+        <div class="btn">
+            <button class="learn">Learn More</button>
+            <button class="Subscribe">Subscribe</button>
+        </div>
+    </div>
+</body>
+</html>
