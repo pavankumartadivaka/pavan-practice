@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Font Family</title>
+</head>
+<body>
+    <p>Change any of the style and try it.</p>
+   <div style="font-family:verdana;">This is demo for font family</div>
+   <br>
+   <div style="font-family:serif;">This is demo for font family</div>
+</body>
+</html>
