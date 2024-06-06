@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Animations</title>
+</head>
+<style>
+    div{
+        background-color: orange;
+        width: 100px;
+        height: 100px;
+        animation-name: pavan;
+        animation-delay: 3s;
+        animation-duration: 5s;
+        animation-iteration-count: 5;
+        animation-fill-mode: forwards;
+        position: relative;
+    }
+    @keyframes pavan{
+        from{left:0px}
+        to{left:300px}
+    }
+    #liner{
+        animation-timing-function:linear;
+    }
+    #ease{
+        animation-timing-function: ease;
+    }
+    #ease-in{
+        animation-timing-function: ease-in;
+    }
+    #ease-out{
+        animation-timing-function: ease-out;
+    }
+    #ease-in-out{
+        animation-timing-function: ease-in-out;
+    }
+</style>
+<body>
+        <h1>Animations</h1>
+    <h2>animation-timing-function</h2>
+    <h3>linear property</h3>
+    <div id="liner"> 
+    linear
+    </div>
+    <br>
+    <br>
+    <br>
+    <h2>ease property</h2>
+    <div id="ease">
+    ease
+    </div>
+    <br>
+    <br>
+    <h2>ease-in property</h2>
+    <div id="ease-in">
+    ease-in
+    </div>
+    <h2>ease-out property</h2>
+    <div id="ease-out">
+    ease-out
+    </div>
+    <br>
+    <br>
+    <h2>ease-in-out property</h2>
+    <div id="ease-in-out">
+    ease-in-out
+    </div>
+</body>
+</html>
