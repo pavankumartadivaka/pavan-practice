@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>3D transforms</title>
+</head>
+<style>
+    div{
+        background-color: red;
+        width: 100px;
+        height: 100px;
+    }
+    #rotateX{
+        transform: rotateX(145deg);
+    }
+    #rotateY{
+        transform: rotateY(145deg);
+    }
+    #rotateZ{
+        transform: rotateZ(145deg);
+    }
+</style>
+<body>
+        <h1>3D transforms</h1>
+    <h2>rotateX</h2>
+    <div id="rotateX"> 
+        Div is rotating along x axis
+    </div>
+    <br>
+    <br>
+    <br>
+    <h2>rotateY</h2>
+    <div id="rotateY">
+        Div is rotating along Y axis
+    </div>
+    <br>
+    <br>
+    <h2>rotateZ</h2>
+    <div id="rotateZ">
+        Div is rotating along Z axis
+    </div>
+</body>
+</html>
