@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Transition</title>
+</head>
+<style>
+    div{
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        transition: width 2s;
+    }
+    div:hover{
+        width: 400px;
+    }
+    #liner{
+        transition-timing-function:linear;
+    }
+    #ease{
+        transition-timing-function: ease;
+    }
+    #ease-in{
+        transition-timing-function: ease-in;
+    }
+    #ease-out{
+        transition-timing-function: ease-out;
+    }
+    #ease-in-out{
+        transition-timing-function: ease-in-out;
+    }
+</style>
+<body>
+        <h1>Transition</h1>
+    <h2>transiton-timing-function</h2>
+    <h3>linear property: same speed from start to end</h3>
+    <div id="liner"> 
+    linear
+    </div>
+    <br>
+    <br>
+    <br>
+    <h2>easeease property: slow start, then fast, end slowly</h2>
+    <div id="ease">
+    ease
+    </div>
+    <br>
+    <br>
+    <h2>ease-in property: with a slow star</h2>
+    <div id="ease-in">
+    ease-in
+    </div>
+    <h2>ease-out property: slow end</h2>
+    <div id="ease-out">
+    ease-out
+    </div>
+    <br>
+    <br>
+    <h2>ease-in-out property: slow start and end</h2>
+    <div id="ease-in-out">
+    ease-in-out
+    </div>
+</body>
+</html>
