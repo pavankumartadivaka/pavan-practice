@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title> important in CSS</title>
+</head>
+<style>
+    .class{
+        background-color: blue;
+    }
+    #id{
+        background-color: green;
+    }
+    p{
+        background-color: red !important;
+    }
+</style>
+<body>
+    <p>This is some text in a paragraph.</p>
+
+    <p class="class">This is some text in a paragraph.</p>
+    
+    <p id="id">This is some text in a paragraph.</p>
+</body>
+</html>
