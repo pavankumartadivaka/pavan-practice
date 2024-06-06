@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Animations movement</title>
+</head>
+<style>
+    div{
+        background-color: orange;
+        width: 100px;
+        height: 100px;
+        animation-name: pavan;
+        animation-delay: 2s;
+        animation-duration: 10s;
+        animation-iteration-count: 5;
+        animation-fill-mode: forwards;
+        position: relative;
+    }
+    @keyframes pavan{
+        0%{background-color: aqua; top: 0px; left:300px;}
+        25%{background-color: green;left: 300px; top: 0px;}
+        50%{background-color: brown; left: 300px; top: 300px;}
+        75%{background-color: blue; left: 0px; top: 300px;}
+        100%{background-color: red; left: opx; top: 0px;}
+    }
+        
+   
+</style>
+<body>
+        <h1>Animations</h1>
+        <div></div>
+</body>
+</html>
