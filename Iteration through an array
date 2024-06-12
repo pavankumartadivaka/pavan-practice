@@ -1,0 +1,4 @@
+let laptops=["hp","dell","lenovo","accer"]
+for(let i=0;i<=laptops.length-1; i++){
+    console.log(laptops[i])
+}
