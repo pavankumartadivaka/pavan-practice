@@ -1,0 +1,8 @@
+let Courses=new Array("HTML","CSS","JavaScript","React js");
+console.log(Courses)
+Courses.pop("Node.js")
+console.log(Courses)
+Courses.shift("MYSQL")
+console.log(Courses)
+Courses.splice(1,2)
+console.log(Courses)
