@@ -1,0 +1,4 @@
+let courses=new Array("html", "css", "javascript", "react", "DBA");
+let courses1=["java", "oracle", "pega", "cloud"];
+let concateArray=courses1.concat(courses)
+console.log(concateArray)
