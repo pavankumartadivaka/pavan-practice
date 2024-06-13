@@ -1,0 +1,15 @@
+const str=new String("literal string")
+console.log(str)
+const str1="literal string"
+console.log(str1)
+const str2=""
+console.log(str2)
+const str3='This is a multiline string'
+console.log(str3)
+let one="web Development"
+console.log(one.length)
+let concString=str+str1
+console.log(concString)
+let str4="web development includes so many topics like html, css, javascript, reactjs, mysql, dba";
+const substr=str4.substring(45,68);
+console.log(substr)
