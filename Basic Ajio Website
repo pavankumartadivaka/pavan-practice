@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Ajio Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #a22c2c;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 36px;
+        }
+        nav {
+            background-color: #7a7272;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 200px;
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: #fff;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background-color: #659c4a;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin: 20px;
+            padding: 10px;
+            width: 300px;
+            height: 250px;
+        }
+        footer {
+            background-color: #533e3e;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            margin: 20px auto;
+            display: block;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AJIO</h1>
+    </header>
+    <nav>
+        <div class="dropdown">
+            <a href="#">MEN</a>
+            <div class="dropdown-content">
+                <a href="#">CLOTHING</a>
+                <a href="#">FOOTWEAR</a>
+                <a href="#">ACCESSORIES</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">WOMEN</a>
+            <div class="dropdown-content">
+                <a href="#">CLOTHING</a>
+                <a href="#">FOOTWEAR</a>
+                <a href="#">ACCESSORIES</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">KIDS</a>
+            <div class="dropdown-content">
+                <a href="#">CLOTHING</a>
+                <a href="#">FOOTWEAR</a>
+                <a href="#">ACCESSORIES</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">BEAUTY</a>
+            <div class="dropdown-content">
+                <a href="#">SKIN CARE</a>
+                <a href="#">HAIR CARE</a>
+                <a href="#">MAKEUP</a>
+            </div>
+        </div>
+    </nav>
+    <input type="text" placeholder="Search...">
+    <div class="container">
+        <div class="card">
+            <h2>MEN</h2>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-30052024-SPONSORBRANDS-snitch-4080-rev.jpg"style="width:300px;height:200px"/>
+        </div>
+        <div class="card">
+            <h2>WOMEN</h2>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-07062024-AJIOEXCLUSIVES-z8-fyrerose-min60.jpg"style="width:300px;height:200px"/>
+        </div>
+        <div class="card">
+            <h2>KIDS</h2>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-30052024-KIDSWEAR-gap-uspa-min30.jpg"style="width:300px;height:200px"/>
+        </div>
+        <div class="card">
+            <h2>BEAUTY</h2>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-30052024-LASTATIC-beauty-under3999.jpg"style="width:300px;height:200px"/>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 AJIOCARE.com
+    </footer>
+</body>
+</html>
