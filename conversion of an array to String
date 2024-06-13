@@ -1,0 +1,2 @@
+let courses=new Array("html", "css", "javascript", "react", "DBA");
+console.log(courses.toString())
