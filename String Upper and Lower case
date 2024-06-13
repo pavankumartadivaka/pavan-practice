@@ -1,0 +1,5 @@
+let str="web development includes so many topics like \ html, css, javascript, reactjs, mysql, dba";
+const uppercase=str.toUpperCase();
+console.log(uppercase)
+const lowercase=str.toLowerCase();
+console.log(lowercase)
