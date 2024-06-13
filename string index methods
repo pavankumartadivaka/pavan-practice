@@ -1,0 +1,11 @@
+let str="web development includes so many topics like \ html, css, javascript, reactjs, mysql, dba";
+const searchindex=str.indexOf("html");
+console.log(searchindex)
+const searchindex1=str.indexOf("literal");
+console.log(searchindex1)
+const replace=str.replace("reactjs","nodejs")
+console.log(replace)
+const string="Web Development"
+const str1=string[8];
+console.log(str1)
+console.log(str==string)
