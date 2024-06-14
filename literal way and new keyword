@@ -1,0 +1,10 @@
+const student={
+    rno:101,name:"pavan",branch:"computers"
+}
+console.log(student.rno+" "+student.name+" "+student.branch)
+
+const students=new Object();
+students.id=102;
+students.name="kumar";
+students.branch="science"
+console.log(students.id+" "+students.name+" "+students.branch)
