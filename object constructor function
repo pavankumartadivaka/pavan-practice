@@ -1,0 +1,15 @@
+function student(id,name,branch){
+    this.id=id;
+    this.name=name;
+    this.branch=branch;
+}
+var student1=new student(101,"pavan","science")
+console.log(student1.id+" "+student1.name+" "+student1.branch)
+var student2=new student(102,"kumar","BSC")
+console.log(student2.id+" "+student2.name+" "+student2.branch)  
+var student3=new student(103,"sai","CSE")
+console.log(student3.id+" "+student3.name+" "+student3.branch)
+var student4=new student(104,"kalyan","ECE")
+console.log(student4.id+" "+student4.name+" "+student4.branch)
+var student5=new student(105,"deepak","EEE")
+console.log(student5.id+" "+student5.name+" "+student5.branch)
