@@ -1,0 +1,10 @@
+let a=156e4;
+console.log(a)
+let b=156e-5
+console.log(b)
+let c=666666666666666;
+console.log(c);
+let d=6666666666666666;
+console.log(d);
+let x=1.33+1.44;
+console.log(x)
