@@ -1,0 +1,4 @@
+function kumar(){
+    console.log("welcome Kumar")
+}
+kumar()
