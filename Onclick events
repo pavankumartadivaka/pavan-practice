@@ -1,0 +1,41 @@
+IN HTML:
+<body>
+  <h1>
+   Onclick Events
+  </h1>
+  <button type="button" onclick="welcome()">Click me</button>
+  <script>
+    function welcome(){
+        alert("welcome")
+    }
+  </script>
+</body>
+
+IN JAVASCRIPT:
+<body>
+    <h1>Onclick Events</h1>
+    <p id="click">Click</p>
+    <script>
+        document.getElementById("click").onclick=function(){
+            hello()
+        }
+        function hello(){
+            document.getElementById("click").innerHTML="web development";
+        }
+    </script>
+</body>
+
+add event listener method:
+
+<body>
+    <h1>Onclick Events</h1>
+    <p id="click">Click me</p>
+    <script>
+        document.getElementById("click").addEventListener("click",hello);
+        function hello(){
+            document.getElementById("click").innerHTML="web development"
+            document.getElementById("click").style.color="pink"
+            document.getElementById("click").style.background="yellow"
+        }
+    </script>
+</body>
