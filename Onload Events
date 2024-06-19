@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>onload Events</title>
+</head>
+<body>
+    <h1>Onload Events</h1>
+    <img src="https://th.bing.com/th/id/OIP.K4ulQ4vEOsSUNzsMROiatAHaE7?w=278&h=185&c=7&r=0&o=5&dpr=1.5&pid=1.7" id="imgid" alt="duck"/>
+    <p id="one"></p>
+    <script>
+        document.getElementById("imgid").addEventListener("load",load);
+        function load(){
+            document.getElementById("one").innerHTML="Reactjs";
+        }
+    </script>
+</body>
+</html>
