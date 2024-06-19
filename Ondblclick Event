@@ -1,0 +1,39 @@
+In HTML
+
+<body>
+    <h1>Ondbclick Events</h1>
+    <p id="click" ondblclick="double()">double Click me</p>
+    <script>
+        function double(){
+        document.getElementById("click").innerHTML="web development"
+        }
+    </script>
+</body>
+
+In Javascript
+
+<body>
+    <h1>Ondbclick Events</h1>
+    <p id="click">double Click me</p>
+    <script>
+        document.getElementById("click").ondblclick=function(){
+            double();
+        }
+        function double(){
+            document.getElementById("click").innerHTML="JavaScript"
+        }
+    </script>
+</body>
+
+AddEventListener
+
+<body>
+    <h1>Ondbclick Events</h1>
+    <p id="click">double Click me</p>
+    <script>
+        document.getElementById("click").addEventListener("dblclick",double);
+        function double(){
+            document.getElementById("click").innerHTML="Reactjs"
+        }
+    </script>
+</body>
