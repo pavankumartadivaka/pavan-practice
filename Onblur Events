@@ -1,0 +1,38 @@
+In HTML 
+
+<body>
+    <h1>Onblur Events</h1> Email:
+    <input type="email" id="email" onblur="blur()">
+    <script>
+        function blur(){
+           alert("this field is mandatory")
+        }
+    </script>
+</body>
+
+In Javascript
+
+ <h1>Onblur Events</h1>
+    <input type="email" id="email">
+    <script>
+        document.getElementById("email").onblur=function(){
+            blur()
+        }
+        function blur(){
+           alert("this field is mandatory")
+        }
+    </script>
+</body>
+
+AddEventListener:
+
+<body>
+    <h1>Onblur Events</h1>
+    <input type="email" id="email">
+    <script>
+        document.getElementById("email").addEventListener("onblur",blur)
+        function blur(){
+            alert("input field is missing")
+        }
+    </script>
+</body>
