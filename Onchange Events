@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Onchange Events</title>
+</head>
+<body>
+    <h1>OnChange Events</h1>
+    <select id="onchange" onchange="pavan()">
+        <option value="Java">Java</option>
+        <option value="python">python</option>
+        <option value="cloud">cloud</option>
+        <option value="Data science">Data science</option>
+        <option value="SQL">SQL</option>
+    </select>
+    <p id="one"> </p>
+    <script>
+        function pavan(){
+            var x=document.getElementById("onchange").value;
+            document.getElementById("one").innerHTML="you selected : " + x
+        }
+    </script>
+</body>
+</html>
