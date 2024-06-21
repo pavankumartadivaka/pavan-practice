@@ -1,0 +1,3 @@
+const age=18;
+const is_eligable_voter=(age>=18)?"Yes":"No";
+console.log(is_eligable_voter)
