@@ -1,0 +1,7 @@
+let person = {
+  firstName: "Alice",
+  lastName: "Smith",
+  age: 25,
+  city: "New York"
+};
+console.log("Person:", person);
