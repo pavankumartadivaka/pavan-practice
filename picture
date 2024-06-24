@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>picture</title>
+</head>
+<body>
+  <picture>
+    <source
+      media="(min-width:650px)"
+      srcset="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goldentemple1-img.png"/>
+    <source
+      media="(min-width:465px)"
+      srcset="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace1-img.png"/>
+    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi1-img.png"alt="historical places"/>
+    
+  </picture>
+</body>
+</html>
