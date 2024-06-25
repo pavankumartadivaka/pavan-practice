@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Range</title>
+  </head>
+  <body>
+   <input type="range" id="volume" name="volume" min="0" max="15" />
+<label for="volume">Volume</label>
+  </body>
+  </html>
