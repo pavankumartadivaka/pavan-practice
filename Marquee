@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Marquee</title>
+  </head>
+  <body>
+   <marquee direction="up" width="200" height="100" behavior="alternate" scrollamount="1">
+  This text will alternate scrolling up and down
+</marquee>
+  </body>
+  </html>
